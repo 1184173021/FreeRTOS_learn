@@ -11,10 +11,10 @@ void vGarbage_box_check_task(void *pvParameters)
     {
         printf("12345\r\n");
         delay_ms(1000);
-        // GPIO_SetBits(GPIOA, GPIO_Pin_8); // LED0输出高
-        // delay_ms(1000);
-        // GPIO_ResetBits(GPIOA, GPIO_Pin_8); // LED0输出低
-        // delay_ms(1000);
+         GPIO_SetBits(GPIOA, GPIO_Pin_8); // LED0输出高
+         delay_ms(1000);
+         GPIO_ResetBits(GPIOA, GPIO_Pin_8); // LED0输出低
+         delay_ms(1000);
     }
 }
 void vGarbage_box_check_task1(void *pvParameters)
@@ -23,10 +23,10 @@ void vGarbage_box_check_task1(void *pvParameters)
     {
         printf("tianya\r\n");
         delay_ms(500);
-        // GPIO_SetBits(GPIOA, GPIO_Pin_8); // LED0输出高
-        // delay_ms(1000);
-        // GPIO_ResetBits(GPIOA, GPIO_Pin_8); // LED0输出低
-        // delay_ms(1000);
+         GPIO_SetBits(GPIOA, GPIO_Pin_8); // LED0输出高
+         delay_ms(1000);
+         GPIO_ResetBits(GPIOA, GPIO_Pin_8); // LED0输出低
+         delay_ms(1000);
     }
 }
 
